@@ -1,5 +1,5 @@
 # Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos
-Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui]() e o arquivo da apresentação [aqui]().
+Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui](artigo_queimadas_pantanal.doc) e o arquivo da apresentação [aqui](apresentação.pdf).
 
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
@@ -22,7 +22,7 @@ Jupyter notebook:
 jupyter notebook
 ```
 Para executar os códigos no google colab, basta clicar no botão abaixo:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/charlespimentel/queimadas_pantanal/blob/main/exploratory_data_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/charlespimentel/DS_queimadas_pantanal/blob/main/exploratory_data_analysis.ipynb)
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
