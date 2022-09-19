@@ -8,7 +8,7 @@ O repositório está organizado da seguinte forma:
 - [`README.md`](README.md): contém a descrição do repositório.
 - [`requirements.txt`](requirements.txt): contém as dependências utilizadas no projeto exportadas para arquivo txt.
 - [`environment.yml`](environment.yml): contém as dependências utilizadas no projeto exportadas para arquivo yml.
-- [`prov_generator.py`](prov_generator.py): contém o script utilizado para a geração das proveniências dos dados.
+- [`prov_generator.ipynb`](prov_generator.ipynb): contém o script utilizado para a geração das proveniências dos dados.
 
 ## Dependências
 Para executar os códigos do projeto, é necessário instalar as dependências contidas no arquivo `requirements.txt` ou `environment.yml`. Foi utilizado o [Anaconda](https://www.anaconda.com/products/distribution) para a criação do ambiente de desenvolvimento do projeto. Para instalar as dependências, basta executar o seguinte comando no terminal:
