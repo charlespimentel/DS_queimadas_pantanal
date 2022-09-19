@@ -3,11 +3,11 @@ Este repositório tem como objetivo armazenar e organizar os códigos utilizados
 
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
-- `Data_Lasa_12_20`: contém os dados utilizados para a análise.
-- `exploratory_data_analysis.ipynb`: contém os códigos utilizados para a análise exploratória dos dados de queimadas do LASA no Pantanal.
-- `README.md`: contém a descrição do repositório.
-- `requirements.txt`: contém as dependências utilizadas no projeto.
-- `prov_generator.py`: contém o script utilizado para a geração das proveniências dos dados.
+- [`Data_Lasa_12_20`](Data_Lasa_12_21/): contém os dados utilizados para a análise.
+- [`exploratory_data_analysis.ipynb`](exploratory_data_analysis.ipynb): contém os códigos utilizados para a análise exploratória dos dados de queimadas do LASA no Pantanal.
+- [`README.md`](README.md): contém a descrição do repositório.
+- [`requirements.txt`](requirements.txt): contém as dependências utilizadas no projeto.
+- [`prov_generator.py`](prov_generator.py): contém o script utilizado para a geração das proveniências dos dados.
 
 ## Dependências
 Para executar os códigos do projeto, é necessário instalar as dependências contidas no arquivo `requirements.txt`. Para isso, basta executar o seguinte comando:
@@ -24,5 +24,5 @@ jupyter notebook
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
 ## Autores
-- **Charles Pimentel** - [charlespimentel]()
-- **Isaac D'Césares** - [idcesares]()
+- **Charles Pimentel** - [charlespimentel](https://github.com/charlespimentel)
+- **Isaac D'Césares** - [idcesares](https://github.com/idcesares)
