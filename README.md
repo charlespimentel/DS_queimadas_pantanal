@@ -1,3 +1,5 @@
+![](imgs/Queimadas%20no%20Pantanal%20uma%20an%C3%A1lise%20explorat%C3%B3ria%20dos%20%C3%BAltimos%2010%20anos.png)
+
 # Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos
 Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui](artigo_queimadas_pantanal.doc) e o arquivo da apresentação [aqui](apresentação.pdf).
 
@@ -24,9 +26,24 @@ jupyter notebook
 Para executar os códigos no google colab, basta clicar no botão abaixo:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/charlespimentel/DS_queimadas_pantanal/blob/main/exploratory_data_analysis.ipynb)
 
+Para executar o dashboard, basta executar o arquivo `dynamic-dashboard.py` no terminal:
+```bash
+streamlit dynamic_dashboard.py
+```
+
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
 ## Autores
 - **Charles Pimentel** - [charlespimentel](https://github.com/charlespimentel)
 - **Isaac D'Césares** - [idcesares](https://github.com/idcesares)
+
+## Citação
+Se você utilizar este repositório em seu trabalho, por favor, cite o artigo:
+```bibtex
+@article{pimentel&dcesares2022queimadas,
+  title={Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos},
+  author={Pimentel, Charles and D'Césares, Isaac},
+  year={2022}
+}
+```
