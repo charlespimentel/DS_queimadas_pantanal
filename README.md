@@ -5,8 +5,17 @@ Este repositório tem como objetivo armazenar e organizar os códigos utilizados
 
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
+- `artigo_queimadas_pantanal.doc`: arquivo do artigo produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
+- `apresentação.pdf`: arquivo da apresentação produzida na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
 - [`Data_Lasa_12_20`](Data_Lasa_12_21/): contém os dados utilizados para a análise.
+- [`Data_Results`](Data_Results/): contém os dados gerados a partir da análise. Foram gerados 3 arquivos:
+  - `queimadas_pantanal_2012_2021_csv.zip`: arquivo zip contendo os dados em formato csv.
+  - `queimadas_pantanal_2012_2021_geojson.zip`: arquivo zip contendo os dados em formato geojson.
+- [`imgs`](imgs/): contém as imagens utilizadas no README.md.
+- [`Data_RPPN`](Data_RPPN/): contém os dados utilizados de geometria das RRPN do Sesc para a análise.
+- [`dynamic_dashboard.py`](dynamic_dashboard/): contém os códigos utilizados para a geração do dashboard dinâmico.
 - [`exploratory_data_analysis.ipynb`](exploratory_data_analysis.ipynb): contém os códigos utilizados para a análise exploratória dos dados de queimadas do LASA no Pantanal.
+- [`LICENSE`](LICENSE): contém a licença do repositório.
 - [`README.md`](README.md): contém a descrição do repositório.
 - [`requirements.txt`](requirements.txt): contém as dependências utilizadas no projeto exportadas para arquivo txt.
 - [`environment.yml`](environment.yml): contém as dependências utilizadas no projeto exportadas para arquivo yml.
@@ -18,7 +27,7 @@ Para executar os códigos do projeto, é necessário instalar as dependências c
 conda env create -f environment.yml
 ```
 ## Execução
-Para executar os códigos do projeto, utilize um jupyter notebook ou o google colab. 
+Para executar os códigos do projeto, utilize um Jupyter notebook ou o Google Colab. 
 Jupyter notebook:
 ```bash
 jupyter notebook
@@ -30,6 +39,7 @@ Para executar o dashboard, basta executar o arquivo `dynamic-dashboard.py` no te
 ```bash
 streamlit dynamic_dashboard.py
 ```
+É necessário exportar  o arquivo `queimadas_pantanal_2012_2021_geojson.zip` para o diretório `Data_Results` para que o dashboard funcione corretamente.
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
