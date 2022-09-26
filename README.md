@@ -1,7 +1,7 @@
 ![](imgs/Queimadas%20no%20Pantanal%20uma%20an%C3%A1lise%20explorat%C3%B3ria%20dos%20%C3%BAltimos%2010%20anos.png)
 
 # Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos
-Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui](artigo_queimadas_pantanal.doc) e o arquivo da apresentação [aqui](apresentação.pdf).
+Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui](artigo_queimadas_pantanal.docx) e o arquivo da apresentação [aqui](apresentação.pdf).
 
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
@@ -50,13 +50,12 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](
 
 ## Citação
 Se você utilizar este repositório em seu trabalho, por favor, cite o artigo:
-```bibtex
-@article{pimentel&dcesares2022queimadas,
-  title={Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos},
-  author={Pimentel, Charles and D'Césares, Isaac},
-  year={2022}
-}
-```
+
+>Isaac D'Césares, & Charles Pimentel. (2022). charlespimentel/DS_queimadas_pantanal: Dataset queimadas no bioma Pantanal no Brasil dos últimos 10 anos v1.0 (Dataset). Zenodo. https://doi.org/10.5281/zenodo.7113721
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7113721.svg)](https://doi.org/10.5281/zenodo.7113721)
 
 ## Referências
 >Renata Libonati, Filippe LM Santos, Julia A Rodrigues, CAP Sena, Diego Santos, & Waislan Sanches. (2022). ALARMES HISTORIC (v1.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.6799248](https://doi.org/10.5281/zenodo.6799248)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6799248.svg)](https://doi.org/10.5281/zenodo.6799248)
