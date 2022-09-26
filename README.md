@@ -5,9 +5,9 @@ Este repositório tem como objetivo armazenar e organizar os códigos utilizados
 
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
-- `artigo_queimadas_pantanal.doc`: arquivo do artigo produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
+- `artigo_queimadas_pantanal.docx`: arquivo do artigo produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
 - `apresentação.pdf`: arquivo da apresentação produzida na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
-- [`Data_Lasa_12_20`](Data_Lasa_12_21/): contém os dados utilizados para a análise.
+- [`Data_Lasa_12_21`](Data_Lasa_12_21/): contém os dados utilizados para a análise.
 - [`Data_Results`](Data_Results/): contém os dados gerados a partir da análise. Foram gerados 3 arquivos:
   - `queimadas_pantanal_2012_2021_csv.zip`: arquivo zip contendo os dados em formato csv.
   - `queimadas_pantanal_2012_2021_geojson.zip`: arquivo zip contendo os dados em formato geojson.
@@ -57,3 +57,6 @@ Se você utilizar este repositório em seu trabalho, por favor, cite o artigo:
   year={2022}
 }
 ```
+
+## Referências
+>Renata Libonati, Filippe LM Santos, Julia A Rodrigues, CAP Sena, Diego Santos, & Waislan Sanches. (2022). ALARMES HISTORIC (v1.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.6799248](https://doi.org/10.5281/zenodo.6799248)
