@@ -41,7 +41,14 @@ docker run -it -p 8888:8888 queimadas_pantanal
 Após a execução do comando, será exibido um link no terminal. Basta copiar o link e colar no navegador para acessar o Jupyter Notebook.
 
 ## Execução
-Para executar os códigos do projeto, utilize um Jupyter notebook ou o Google Colab. 
+Para executar os códigos do projeto , utilize um Jupyter notebook ou o Google Colab. 
+
+### Docker
+Para executar os códigos do projeto utilizando o Docker, basta executar o seguinte comando no terminal:
+```bash
+docker run -it -p 8888:8888 queimadas_pantanal
+```
+
 ### Jupyter notebook:
 ```bash
 jupyter notebook
