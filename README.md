@@ -13,7 +13,7 @@ O repositório está organizado da seguinte forma:
   - `queimadas_pantanal_2012_2021_geojson.zip`: arquivo zip contendo os dados em formato geojson.
 - [`imgs`](imgs/): contém as imagens utilizadas no README.md.
 - [`Data_RPPN`](Data_RPPN/): contém os dados utilizados de geometria das RRPN do Sesc para a análise.
-- [`dynamic_dashboard.py`](dynamic_dashboard/): contém os códigos utilizados para a geração do dashboard dinâmico.
+- [`Dashboard.py`](Dashboard.py): contém os códigos utilizados para a geração do dashboard dinâmico.
 - [`exploratory_data_analysis.ipynb`](exploratory_data_analysis.ipynb): contém os códigos utilizados para a análise exploratória dos dados de queimadas do LASA no Pantanal.
 - [`LICENSE`](LICENSE): contém a licença do repositório.
 - [`README.md`](README.md): contém a descrição do repositório.
@@ -60,11 +60,9 @@ Para executar os códigos no google colab, basta clicar no botão abaixo:
 ### Dashboard dinâmico
 Para executar o dashboard, basta executar o arquivo `dynamic-dashboard.py` no terminal:
 ```bash
-streamlit dynamic_dashboard.py
+streamlit Dashboard.py
 ```
 É necessário exportar  o arquivo `queimadas_pantanal_2012_2021_geojson.zip` para o diretório `Data_Results` para que o dashboard funcione corretamente.
-
-Também é possível acessar o dashboard através do link: https://share.streamlit.io/charlespimentel/ds_queimadas_pantanal/main/dynamic_dashboard.py
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
