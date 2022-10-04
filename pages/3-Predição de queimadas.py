@@ -39,8 +39,7 @@ st.write('Gráfico da previsão do modelo')
 st.write(m.plot(forecast))
 st.write(m.plot_components(forecast))
 
-st.write('Selecionar o ano 2022 do dataset de previsão')
-print(f"Área de queimada prevista para o ano de 2022: {forecast[forecast['ds'].dt.year == 2022].yhat.sum().round(2)} milhão de ha")
+st.write('Área de queimada prevista para o ano de 2022: ', {forecast[forecast['ds'].dt.year == 2022].yhat.sum().round(2)}, ' milhão de ha')
 
 st.write('Tabela com os dados de previsão para o ano de 2022')
 st.write(forecast[forecast['ds'].dt.year == 2022][['ds', 'yhat', 'yhat_lower', 'yhat_upper']])
