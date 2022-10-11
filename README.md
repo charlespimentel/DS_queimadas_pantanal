@@ -2,6 +2,7 @@
 
 # Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos
 Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui](artigo_queimadas_pantanal.docx) e o arquivo da apresentação [aqui](apresentação.pdf).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7113721.svg)](https://doi.org/10.5281/zenodo.7113721)
 
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
