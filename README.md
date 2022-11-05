@@ -1,13 +1,13 @@
 ![](imgs/Queimadas%20no%20Pantanal%20uma%20an%C3%A1lise%20explorat%C3%B3ria%20dos%20%C3%BAltimos%2010%20anos.png)
 
 # Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos
-Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui](artigo_queimadas_pantanal.docx) e o arquivo da apresentação [aqui](apresentação.pdf).
+Este repositório tem como objetivo armazenar e organizar os códigos utilizados para a geração dos relatórios, visualizações e proveniências utilizados no artigo Queimadas no Pantanal: uma análise exploratória dos últimos 10 anos produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ. O artigo pode ser acessado [aqui](Artigo_Queimadas_Pantanal.pdf) e o arquivo da apresentação [aqui](apresentação.pdf).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7113721.svg)](https://doi.org/10.5281/zenodo.7113721)
 
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
-- [`artigo_queimadas_pantanal.docx`](artigo_queimadas_pantanal.docx): arquivo do artigo produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
+- [`Artigo_Queimadas_Pantanal.pdf`](Artigo_Queimadas_Pantanal.pdf): arquivo do artigo produzido na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
 - [`apresentação.pdf`](apresentação.pdf): arquivo da apresentação produzida na disciplina de Fundamentos de Ciência de Dados do PPGI-UFRJ.
 - [`Data_Lasa_12_21`](Data_Lasa_12_21/): contém os dados utilizados para a análise.
 - [`Data_Results`](Data_Results/): contém os dados gerados a partir da análise. Foram gerados 3 arquivos:
